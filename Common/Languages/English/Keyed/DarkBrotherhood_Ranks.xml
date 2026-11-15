@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_DarkBrotherhood>Taught by:</ESCP_Rank_Mentor_DarkBrotherhood>
+    <ESCP_Rank_NoMentor_DarkBrotherhood>No one</ESCP_Rank_NoMentor_DarkBrotherhood>
+    <ESCP_Rank_Promote_DarkBrotherhood>Raise in the Family</ESCP_Rank_Promote_DarkBrotherhood>
+    <ESCP_Rank_NextRank_DarkBrotherhood>Next rank</ESCP_Rank_NextRank_DarkBrotherhood>
+    <ESCP_Rank_ChoosePath_DarkBrotherhood>Choose a path</ESCP_Rank_ChoosePath_DarkBrotherhood>
+    <ESCP_Rank_DaysInRank_DarkBrotherhood>{0} days in the Family's service at this rank</ESCP_Rank_DaysInRank_DarkBrotherhood>
+    <ESCP_Rank_Promoted_Title_DarkBrotherhood>Raised: {0}</ESCP_Rank_Promoted_Title_DarkBrotherhood>
+    <ESCP_Rank_Promoted_Text_DarkBrotherhood>The Night Mother is pleased. {0} now serves the Family as {1}.</ESCP_Rank_Promoted_Text_DarkBrotherhood>
+    <ESCP_Rank_Demoted_Title_DarkBrotherhood>Fallen from favor: {0}</ESCP_Rank_Demoted_Title_DarkBrotherhood>
+    <ESCP_Rank_Demoted_Expedition_DarkBrotherhood>{0} botched a contract. The Family has cast them down from {1} to {2}.</ESCP_Rank_Demoted_Expedition_DarkBrotherhood>
+    <ESCP_Rank_Demoted_KickedOut_DarkBrotherhood>The Family has turned its back on the colony. {0} is no longer {1}, only {2}.</ESCP_Rank_Demoted_KickedOut_DarkBrotherhood>
+    <ESCP_Rank_FormUp_Message_DarkBrotherhood>{0} gathers {1} close.</ESCP_Rank_FormUp_Message_DarkBrotherhood>
+    <ESCP_Rank_Dismiss_Message_DarkBrotherhood>{0} sends {1} back into the shadows.</ESCP_Rank_Dismiss_Message_DarkBrotherhood>
+    <ESCP_Rank_Rally_Title_DarkBrotherhood>{0} invokes Sithis</ESCP_Rank_Rally_Title_DarkBrotherhood>
+    <ESCP_Rank_Rally_Text_DarkBrotherhood>{0} whispers the Dread Father's name, and every member of {1} on the field moves like a knife in the dark.</ESCP_Rank_Rally_Text_DarkBrotherhood>
+    <ESCP_Rank_DrillingComplete_DarkBrotherhood>{0} and {1} finished their blade work.</ESCP_Rank_DrillingComplete_DarkBrotherhood>
+    <ESCP_Rank_StudyingComplete_DarkBrotherhood>{0} and {1} finished studying the mark.</ESCP_Rank_StudyingComplete_DarkBrotherhood>
+    <ESCP_Rank_InspectionComplete_Commended_DarkBrotherhood>{0} checks {1}'s blade and finds it worthy of Sithis.</ESCP_Rank_InspectionComplete_Commended_DarkBrotherhood>
+    <ESCP_Rank_InspectionComplete_Reprimanded_DarkBrotherhood>{0} checks {1}'s blade. A dull blade makes a dead assassin.</ESCP_Rank_InspectionComplete_Reprimanded_DarkBrotherhood>
+    <ESCP_Rank_InspectionComplete_Passed_DarkBrotherhood>{0} checks {1}'s blade. It will do the work.</ESCP_Rank_InspectionComplete_Passed_DarkBrotherhood>
+    <ESCP_Rank_InspectionComplete_NoGear_DarkBrotherhood>{0} asks for {1}'s blade, but there is none to check.</ESCP_Rank_InspectionComplete_NoGear_DarkBrotherhood>
+    <ESCP_Rank_PunishmentAssigned_DarkBrotherhood>{0} sets {1} a penance.</ESCP_Rank_PunishmentAssigned_DarkBrotherhood>
+    <ESCP_Rank_MentorDown_Message_DarkBrotherhood>{1} has fallen! {0} is filled with cold purpose.</ESCP_Rank_MentorDown_Message_DarkBrotherhood>
+    <ESCP_Rank_Suspended_Title_DarkBrotherhood>Cast out</ESCP_Rank_Suspended_Title_DarkBrotherhood>
+    <ESCP_Rank_History_Enrolled_DarkBrotherhood>Joined the Family as {0}.</ESCP_Rank_History_Enrolled_DarkBrotherhood>
+    <ESCP_Rank_History_FormedUp_DarkBrotherhood>Gathered {0} close.</ESCP_Rank_History_FormedUp_DarkBrotherhood>
+    <ESCP_Rank_History_Inspected_DarkBrotherhood>Checked {0}'s blade.</ESCP_Rank_History_Inspected_DarkBrotherhood>
+    <ESCP_Rank_History_Rallied_DarkBrotherhood>Invoked Sithis for {0}.</ESCP_Rank_History_Rallied_DarkBrotherhood>
+    <ESCP_Rank_History_Punished_DarkBrotherhood>Set {0} a penance.</ESCP_Rank_History_Punished_DarkBrotherhood>
+    <ESCP_Rank_History_MentorDown_DarkBrotherhood>{0}, who taught them, was cut down.</ESCP_Rank_History_MentorDown_DarkBrotherhood>
+    <ESCP_Rank_History_MentorDied_DarkBrotherhood>{0}, who taught them, has gone to the Void.</ESCP_Rank_History_MentorDied_DarkBrotherhood>
+
+</LanguageData>

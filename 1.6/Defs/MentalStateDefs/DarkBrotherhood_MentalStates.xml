@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <MentalStateDef ParentName="BaseMentalState">
+        <defName>ESCP_MentalState_Contract</defName>
+        <stateClass>ESCP.Factions.MentalState_Contract</stateClass>
+        <label>on contract</label>
+        <category>Aggro</category>
+        <blockRandomInteraction>true</blockRandomInteraction>
+        <minTicksBeforeRecovery>100000</minTicksBeforeRecovery>
+        <maxTicksBeforeRecovery>100000</maxTicksBeforeRecovery>
+        <nameColor>(0.55,0.05,0.1)</nameColor>
+        <blockNormalThoughts>true</blockNormalThoughts>
+        <recoveryMessage>{0} has finished with the contract and is leaving.</recoveryMessage>
+        <baseInspectLine>Mental state: Fulfilling a Dark Brotherhood contract</baseInspectLine>
+    </MentalStateDef>
+
+</Defs>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_DarkBrotherhood_Orphan_Child</defName>
+        <identifier>ESCP_Backstory_DarkBrotherhood_Orphan_Child</identifier>
+        <slot>Childhood</slot>
+        <title>sanctuary orphan</title>
+        <titleShort>orphan</titleShort>
+        <description>[PAWN_nameDef] grew up in a Brotherhood sanctuary after [PAWN_possessive] parents were killed. In what circumstances, and by whom, [PAWN_pronoun] has never fully been told. The Brotherhood was the only family [PAWN_pronoun] knew. [PAWN_pronoun] learned to move quietly, to keep count of exits, and never to touch a blade that was not [PAWN_possessive] own. [PAWN_pronoun] does not think of this as an unusual childhood.</description>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_DarkBrotherhood_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_DarkBrotherhood_Acolyte_Child</defName>
+        <identifier>ESCP_Backstory_DarkBrotherhood_Acolyte_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Sithis acolyte</title>
+        <titleShort>acolyte</titleShort>
+        <description>[PAWN_nameDef] was raised in the Void-cult fringe that orbited the Brotherhood's outer edges, not initiated, not trusted with anything real, but taught the prayers and the silence and the patience that the work requires. When [PAWN_pronoun] was old enough to be evaluated properly, [PAWN_pronoun] passed. [PAWN_pronoun] does not speak about what the evaluation involved.</description>
+        <skillGains>
+            <Melee>1</Melee>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_DarkBrotherhood_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_DarkBrotherhood_Initiate_Adult</defName>
+        <identifier>ESCP_Backstory_DarkBrotherhood_Initiate_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood initiate</title>
+        <titleShort>initiate</titleShort>
+        <description>[PAWN_nameDef] came to the Brotherhood through the Black Sacrament, not as a client, but in the way that sometimes happens when someone performs the ritual with enough genuine darkness in them that the Night Mother decides they belong on the other side of it. [PAWN_pronoun] has handled a handful of contracts since then, under supervision. [PAWN_pronoun] has not failed one.</description>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_DarkBrotherhood_Assassin</li>
+        </spawnCategories>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_DarkBrotherhood_Assassin_Adult</defName>
+        <identifier>ESCP_Backstory_DarkBrotherhood_Assassin_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Brotherhood assassin</title>
+        <titleShort>assassin</titleShort>
+        <description>[PAWN_nameDef] has been carrying sanctioned contracts for years. [PAWN_pronoun] prefers it when the target does not see [PAWN_objective] coming but has enough experience to manage when they do. The family trusts [PAWN_objective] with sensitive work: the kind of job where a witness is as much a problem as a failure. [PAWN_pronoun] has strong opinions about witnesses.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>4</Shooting>
+            <Social>3</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_DarkBrotherhood_Assassin</li>
+        </spawnCategories>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_DarkBrotherhood_Silencer_Adult</defName>
+        <identifier>ESCP_Backstory_DarkBrotherhood_Silencer_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Silencer</title>
+        <titleShort>Silencer</titleShort>
+        <description>[PAWN_nameDef] serves as a Silencer, the Listener's personal blade, operating outside the normal chain of contracts and accountable to no one but the Listener [PAWN_pronoun]self. [PAWN_pronoun] does not discuss [PAWN_possessive] assignments, does not leave records, and has not failed an order in as long as anyone is willing to ask about. [PAWN_pronoun] is polite at meals and terrifying everywhere else.</description>
+        <skillGains>
+            <Melee>8</Melee>
+            <Shooting>6</Shooting>
+            <Social>4</Social>
+            <Medicine>3</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_DarkBrotherhood_Assassin</li>
+        </spawnCategories>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+</Defs>

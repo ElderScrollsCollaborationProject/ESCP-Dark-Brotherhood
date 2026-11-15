@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraderKindDef>
+        <defName>ESCP_Caravan_DarkBrotherhood_Supplier</defName>
+        <label>Brotherhood supplier</label>
+
+        <stockGenerators>
+
+            <li Class="StockGenerator_Tag">
+                <tradeTag>MeleeWeapon</tradeTag>
+                <countRange>4~10</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineHerbal</thingDef>
+                <countRange>20~50</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineIndustrial</thingDef>
+                <countRange>8~24</countRange>
+            </li>
+
+            <li Class="StockGenerator_Tag">
+                <tradeTag>Apparel</tradeTag>
+                <countRange>3~7</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Penoxycyline</thingDef>
+                <countRange>5~15</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>SmokeleafJoint</thingDef>
+                <countRange>8~20</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>150~500</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Gold</thingDef>
+                <countRange>5~20</countRange>
+            </li>
+
+        </stockGenerators>
+
+    </TraderKindDef>
+
+</Defs>

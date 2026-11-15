@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="FactionBase">
+        <defName>ESCP_Faction_DarkBrotherhood</defName>
+        <label>Dark Brotherhood</label>
+        <description>The Dark Brotherhood is a covenant of assassins bound to Sithis, the void, and the Night Mother who speaks for him. Sanctuaries are hidden below estates, inside cliff faces, beneath the floors of unremarkable buildings. Members are called family. Most of them mean it. The Brotherhood does not operate through guild halls or public postings, clients reach them through the Black Sacrament, a ritual of desperation that the Brotherhood takes as a standing invitation. The Listener speaks for the Night Mother. The Listener is obeyed.</description>
+        <colorSpectrum>
+            <li>(0.45, 0.04, 0.04)</li>
+        </colorSpectrum>
+        <pawnSingular>Brotherhood assassin</pawnSingular>
+        <pawnsPlural>Brotherhood assassins</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <hidden>true</hidden>
+        <settlementGenerationWeight>0</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <displayInFactionSelection>false</displayInFactionSelection>
+        <canSiege>false</canSiege>
+        <canStageAttacks>false</canStageAttacks>
+        <leaderTitle>Listener</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+        <techLevel>Medieval</techLevel>
+        <fixedName>Dark Brotherhood</fixedName>
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_DarkBrotherhood_Child</li>
+                    <li>ESCP_Backstory_DarkBrotherhood_Assassin</li>
+                </categories>
+                <commonality>0.8</commonality>
+            </li>
+        </backstoryFilters>
+
+        <caravanTraderKinds>
+            <li>ESCP_Caravan_DarkBrotherhood_Supplier</li>
+        </caravanTraderKinds>
+
+        <visitorTraderKinds>
+            <li>ESCP_Caravan_DarkBrotherhood_Supplier</li>
+        </visitorTraderKinds>
+
+        <pawnGroupMakers>
+
+            <li>
+                <kindDef>Settlement</kindDef>
+                <commonality>100</commonality>
+                <options>
+                    <ESCP_Pawnkind_DarkBrotherhood_Initiate>3</ESCP_Pawnkind_DarkBrotherhood_Initiate>
+                    <ESCP_Pawnkind_DarkBrotherhood_Assassin>2</ESCP_Pawnkind_DarkBrotherhood_Assassin>
+                    <ESCP_Pawnkind_DarkBrotherhood_Silencer>1</ESCP_Pawnkind_DarkBrotherhood_Silencer>
+                </options>
+            </li>
+
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <commonality>30</commonality>
+                <options>
+                    <ESCP_Pawnkind_DarkBrotherhood_Initiate>2</ESCP_Pawnkind_DarkBrotherhood_Initiate>
+                    <ESCP_Pawnkind_DarkBrotherhood_Assassin>1</ESCP_Pawnkind_DarkBrotherhood_Assassin>
+                </options>
+            </li>
+
+            <li>
+                <kindDef>Trader</kindDef>
+                <commonality>40</commonality>
+                <options>
+                    <ESCP_Pawnkind_DarkBrotherhood_Initiate>1</ESCP_Pawnkind_DarkBrotherhood_Initiate>
+                </options>
+                <traders>
+                    <ESCP_Pawnkind_DarkBrotherhood_Supplier>1</ESCP_Pawnkind_DarkBrotherhood_Supplier>
+                </traders>
+                <carriers>
+                    <Muffalo>2</Muffalo>
+                    <Horse>1</Horse>
+                </carriers>
+            </li>
+
+        </pawnGroupMakers>
+
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0, 40)</li>
+                <li>(70, 60)</li>
+                <li>(700, 120)</li>
+                <li>(1300, 180)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+        <raidLootValueFromPointsCurve>
+            <points>
+                <li>(0, 0)</li>
+                <li>(100, 20)</li>
+                <li>(1000, 75)</li>
+                <li>(3000, 100)</li>
+            </points>
+        </raidLootValueFromPointsCurve>
+
+        <modExtensions Inherit="False">
+            <li Class="ESCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+        </modExtensions>
+
+    </FactionDef>
+
+</Defs>

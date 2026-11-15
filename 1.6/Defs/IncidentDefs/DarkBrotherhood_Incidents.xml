@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <IncidentDef>
+        <defName>ESCP_BlackSacrament</defName>
+        <label>Black Sacrament</label>
+        <category>ThreatSmall</category>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>ESCP.Factions.IncidentWorker_BlackSacrament</workerClass>
+        <baseChance>0.3</baseChance>
+        <minRefireDays>60</minRefireDays>
+        <earliestDay>30</earliestDay>
+        <modExtensions>
+            <li Class="ESCP.Factions.BlackSacramentExtension">
+                <faction>ESCP_Faction_DarkBrotherhood</faction>
+                <assassinKind>ESCP_Pawnkind_DarkBrotherhood_Assassin</assassinKind>
+                <mentalState>ESCP_MentalState_Contract</mentalState>
+            </li>
+        </modExtensions>
+    </IncidentDef>
+
+</Defs>

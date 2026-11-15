@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_DarkBrotherhood_Enlist_Letter_Title>Joined the Dark Brotherhood</ESCP_DarkBrotherhood_Enlist_Letter_Title>
+    <ESCP_DarkBrotherhood_Enlist_Letter_Label>Your colony now stands with the Dark Brotherhood. Open the guild ledger at any settlement hosting them to draw pay, take work and see your standing.</ESCP_DarkBrotherhood_Enlist_Letter_Label>
+    <ESCP_DarkBrotherhood_Enlist_Button_Label>Join the Dark Brotherhood</ESCP_DarkBrotherhood_Enlist_Button_Label>
+    <ESCP_DarkBrotherhood_Enlist_Button_Desc>Perform the Black Sacrament and wait. Someone will come.</ESCP_DarkBrotherhood_Enlist_Button_Desc>
+    <ESCP_DarkBrotherhood_Enlist_Requrements_Not_Satisfied>The Dark Brotherhood does not trust you yet. Standing: {0}.</ESCP_DarkBrotherhood_Enlist_Requrements_Not_Satisfied>
+    <ESCP_DarkBrotherhood_Enlisted_To_Hostile_Faction>You cannot join the Dark Brotherhood while your colony is at odds with it.</ESCP_DarkBrotherhood_Enlisted_To_Hostile_Faction>
+    <ESCP_DarkBrotherhood_Enlisted_With_Key>Member of the Dark Brotherhood</ESCP_DarkBrotherhood_Enlisted_With_Key>
+    <ESCP_DarkBrotherhood_Missions_Label>Contracts</ESCP_DarkBrotherhood_Missions_Label>
+    <ESCP_DarkBrotherhood_Missions_Desc>See what work the guild has posted.</ESCP_DarkBrotherhood_Missions_Desc>
+    <ESCP_DarkBrotherhood_Menu_Missions_Desc>Open contracts posted by the Dark Brotherhood. Accepting one costs nothing; payment comes when it is done.</ESCP_DarkBrotherhood_Menu_Missions_Desc>
+    <ESCP_DarkBrotherhood_Menu_Missions_Select_Quest>Select contract</ESCP_DarkBrotherhood_Menu_Missions_Select_Quest>
+    <ESCP_DarkBrotherhood_Menu_Missions_Start_Quest>Accept</ESCP_DarkBrotherhood_Menu_Missions_Start_Quest>
+    <ESCP_DarkBrotherhood_Menu_Missions_Collect_Bounty>Collect</ESCP_DarkBrotherhood_Menu_Missions_Collect_Bounty>
+    <ESCP_DarkBrotherhood_Salary_Label>Draw stipend</ESCP_DarkBrotherhood_Salary_Label>
+    <ESCP_DarkBrotherhood_Salary_Desc>Collect your share from the guild's steward.</ESCP_DarkBrotherhood_Salary_Desc>
+    <ESCP_DarkBrotherhood_Provisions_Label>Draw supplies</ESCP_DarkBrotherhood_Provisions_Label>
+    <ESCP_DarkBrotherhood_Provisions_Desc>Take what the guild sets aside for its members on the road.</ESCP_DarkBrotherhood_Provisions_Desc>
+    <ESCP_DarkBrotherhood_Storage_Label>Guild lockbox</ESCP_DarkBrotherhood_Storage_Label>
+    <ESCP_DarkBrotherhood_Storage_Desc>Leave goods in the guild's keeping and collect them from any hall.</ESCP_DarkBrotherhood_Storage_Desc>
+    <ESCP_DarkBrotherhood_Resign_Menu_Text>Leave the Dark Brotherhood? Your standing will suffer for it.</ESCP_DarkBrotherhood_Resign_Menu_Text>
+    <ESCP_DarkBrotherhood_Resign_Letter_Title>Left the Dark Brotherhood</ESCP_DarkBrotherhood_Resign_Letter_Title>
+    <ESCP_DarkBrotherhood_Resign_Letter_Label>Your colony has left the Dark Brotherhood. Its doors are closed to you for now.</ESCP_DarkBrotherhood_Resign_Letter_Label>
+    <ESCP_DarkBrotherhood_Resign_Button_Label>Leave the guild</ESCP_DarkBrotherhood_Resign_Button_Label>
+    <ESCP_DarkBrotherhood_Resign_Button_Desc>Give up your membership and every rank that goes with it.</ESCP_DarkBrotherhood_Resign_Button_Desc>
+    <ESCP_DarkBrotherhood_Kick_Out_Letter_Title>Expelled from the Dark Brotherhood</ESCP_DarkBrotherhood_Kick_Out_Letter_Title>
+    <ESCP_DarkBrotherhood_Kick_Out_Label_Title>Relations have fallen too far. The Dark Brotherhood has struck your colony from its books.</ESCP_DarkBrotherhood_Kick_Out_Label_Title>
+    <ESCP_DarkBrotherhood_Work_0_Label>Take a Minor Contract</ESCP_DarkBrotherhood_Work_0_Label>
+    <ESCP_DarkBrotherhood_Work_0_Desc>A quiet job, far from anyone who might remember you.</ESCP_DarkBrotherhood_Work_0_Desc>
+    <ESCP_DarkBrotherhood_Work_1_Label>Train in the Sanctuary</ESCP_DarkBrotherhood_Work_1_Label>
+    <ESCP_DarkBrotherhood_Work_1_Desc>Practice killing under those who are very good at it.</ESCP_DarkBrotherhood_Work_1_Desc>
+
+</LanguageData>

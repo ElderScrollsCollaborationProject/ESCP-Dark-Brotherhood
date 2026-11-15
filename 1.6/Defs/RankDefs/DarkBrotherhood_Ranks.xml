@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ESCP.Ranks.RankTrackDef>
+        <defName>ESCP_RankTrack_DarkBrotherhood</defName>
+        <label>Dark Brotherhood ranks</label>
+        <iconPath>UI/Abilities/BlindingPulse</iconPath>
+        <guild>DarkBrotherhood</guild>
+        <rootTier>ESCP_Rank_DarkBrotherhood_Murderer</rootTier>
+        <owningFaction>ESCP_Faction_DarkBrotherhood</owningFaction>
+        <collectiveNoun>the Family</collectiveNoun>
+        <drillLabel>Blade Work</drillLabel>
+        <drillDesc>Practice with any colonist. Both stop what they are doing and both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Study the Mark</studyLabel>
+        <studyDesc>Work through the guild's craft with another member. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Check the Blade</inspectLabel>
+        <inspectDesc>Look over a junior member's gear. Good upkeep earns praise and poor upkeep earns a sharp word.</inspectDesc>
+        <punishLabel>Assign Penance...</punishLabel>
+        <punishDesc>Set a junior member to tedious labor for a failure, souring their mood. Once per day per member.</punishDesc>
+        <rallyLabel>Sithis Watches!</rallyLabel>
+        <rallyDesc>Call on {0} to fight harder for a short while. Once every few days.</rallyDesc>
+        <fallInLabel>Attend Me</fallInLabel>
+        <fallInDesc>Order {0} to fall in behind you, up to four deep. They hold formation until released.</fallInDesc>
+        <dismissLabel>Return to the Shadows</dismissLabel>
+        <dismissDesc>Release {0} from formation so they can return to their duties.</dismissDesc>
+    </ESCP.Ranks.RankTrackDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_DarkBrotherhood_Murderer</defName>
+        <label>murderer</label>
+        <description>Has killed, and has been noticed for it.</description>
+        <nextTierOptions>
+            <li>ESCP_Rank_DarkBrotherhood_Slayer</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_DarkBrotherhood_Slayer</defName>
+        <label>slayer</label>
+        <description>Takes contracts and does not ask who sent them.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <skillRequirements>
+            <Melee>5</Melee>
+        </skillRequirements>
+        <minMissionsCompleted>1</minMissionsCompleted>
+        <minGuildReputation>10</minGuildReputation>
+        <trainingXpPerHour>
+            <Melee>400</Melee>
+            <Shooting>150</Shooting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Guild_Novice</expedition>
+        <discipline>Combat</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_DarkBrotherhood_Executioner</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_DarkBrotherhood_Executioner</defName>
+        <label>executioner</label>
+        <description>Sent when a contract must be seen to be carried out.</description>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Melee>8</Melee>
+        </skillRequirements>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <minGuildReputation>25</minGuildReputation>
+        <trainingXpPerHour>
+            <Melee>500</Melee>
+            <Shooting>200</Shooting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Guild_Novice</expedition>
+        <discipline>Combat</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_DarkBrotherhood_Silencer</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_DarkBrotherhood_Silencer</defName>
+        <label>silencer</label>
+        <description>Removes those who have become inconvenient to the Family itself.</description>
+        <minDaysInRank>14</minDaysInRank>
+        <skillRequirements>
+            <Melee>11</Melee>
+        </skillRequirements>
+        <minMissionsCompleted>4</minMissionsCompleted>
+        <minGuildReputation>50</minGuildReputation>
+        <trainingXpPerHour>
+            <Melee>600</Melee>
+            <Shooting>250</Shooting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Guild_Veteran</expedition>
+        <discipline>Combat</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_DarkBrotherhood_Speaker</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_DarkBrotherhood_Speaker</defName>
+        <label>speaker</label>
+        <description>Hands down contracts and keeps a Sanctuary in order.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Melee>14</Melee>
+        </skillRequirements>
+        <minMissionsCompleted>6</minMissionsCompleted>
+        <minGuildReputation>75</minGuildReputation>
+        <trainingXpPerHour>
+            <Melee>700</Melee>
+            <Shooting>300</Shooting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Guild_Veteran</expedition>
+        <discipline>Combat</discipline>
+    </ESCP.Ranks.RankTierDef>
+
+</Defs>
