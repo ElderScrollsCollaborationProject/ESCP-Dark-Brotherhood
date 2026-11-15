@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Nords">
+        <defName>ESCP_Character_Astrid</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Silencer</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Nord</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1000</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Astrid</firstName>
+                <lastName></lastName>
+                <gender>Female</gender>
+                <age>40</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(190, 160, 110)</hairColor>
+                <hairDef>BriefPonytail</hairDef>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Nords">
+        <defName>ESCP_Character_Arnbjorn</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Assassin</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Nord</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Arnbjorn</firstName>
+                <lastName></lastName>
+                <gender>Male</gender>
+                <age>45</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(100, 80, 60)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <beardDef>Full</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>Tough</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Redguards">
+        <defName>ESCP_Character_Nazir</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Assassin</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Redguard</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Nazir</firstName>
+                <lastName></lastName>
+                <gender>Male</gender>
+                <age>40</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(25, 20, 15)</hairColor>
+                <hairDef>Shaved</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(85, 60, 45)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Imperials">
+        <defName>ESCP_Character_Cicero</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Assassin</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Imperial</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Cicero</firstName>
+                <lastName></lastName>
+                <nickname>the Keeper</nickname>
+                <gender>Male</gender>
+                <age>45</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(170, 80, 50)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>Psychopath</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Imperials">
+        <defName>ESCP_Character_LucienLachance</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Silencer</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Imperial</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Lucien</firstName>
+                <lastName>Lachance</lastName>
+                <nickname>the Speaker</nickname>
+                <gender>Male</gender>
+                <age>50</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(40, 35, 30)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <beardDef>Goatee</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Altmer">
+        <defName>ESCP_Character_Arquen</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Silencer</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Altmer</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>850</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Arquen</firstName>
+                <lastName></lastName>
+                <nickname>the Speaker</nickname>
+                <gender>Female</gender>
+                <age>160</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(220, 200, 150)</hairColor>
+                <hairDef>Bob</hairDef>
+                <headTypeDef>ESCP_HeadMer_Female_Narrow_Normal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Bretons">
+        <defName>ESCP_Character_MathieuBellamont</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Assassin</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Breton</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Mathieu</firstName>
+                <lastName>Bellamont</lastName>
+                <gender>Male</gender>
+                <age>40</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(50, 40, 35)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <beardDef>Stubble</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Dunmer">
+        <defName>ESCP_Character_Gabriella</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Assassin</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Dunmer</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Gabriella</firstName>
+                <lastName></lastName>
+                <gender>Female</gender>
+                <age>120</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(40, 30, 30)</hairColor>
+                <hairDef>Long</hairDef>
+                <headTypeDef>ESCP_HeadMerColouredEyes_Female_Average_Normal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Imperials">
+        <defName>ESCP_Character_FestusKrex</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Assassin</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Imperial</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Festus</firstName>
+                <lastName>Krex</lastName>
+                <gender>Male</gender>
+                <age>75</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(200, 200, 200)</hairColor>
+                <hairDef>Bald</hairDef>
+                <beardDef>Full</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>Abrasive</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Bosmer">
+        <defName>ESCP_Character_Ungolim</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Silencer</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Bosmer</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>900</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Ungolim</firstName>
+                <lastName></lastName>
+                <nickname>the Listener</nickname>
+                <gender>Male</gender>
+                <age>200</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(70, 60, 50)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <headTypeDef>ESCP_HeadMer_Male_Average_Normal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Dunmer">
+        <defName>ESCP_Character_BanusAlor</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Silencer</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Dunmer</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Banus</firstName>
+                <lastName>Alor</lastName>
+                <nickname>the Speaker</nickname>
+                <gender>Male</gender>
+                <age>150</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(40, 35, 35)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <headTypeDef>ESCP_HeadMerColouredEyes_Male_Average_Normal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Dunmer">
+        <defName>ESCP_Character_AlvalUvani</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Silencer</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Dunmer</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Alval</firstName>
+                <lastName>Uvani</lastName>
+                <nickname>the Speaker</nickname>
+                <gender>Male</gender>
+                <age>120</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(45, 40, 40)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <headTypeDef>ESCP_HeadMerColouredEyes_Male_Average_Normal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Nords">
+        <defName>ESCP_Character_Jearl</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Silencer</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Nord</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Jearl</firstName>
+                <lastName></lastName>
+                <nickname>the Speaker</nickname>
+                <gender>Female</gender>
+                <age>50</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(170, 140, 90)</hairColor>
+                <hairDef>Bob</hairDef>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Khajiit">
+        <defName>ESCP_Character_MraajDar</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Assassin</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Khajiit</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>M'raaj-Dar</firstName>
+                <lastName></lastName>
+                <gender>Male</gender>
+                <age>45</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(120, 90, 60)</hairColor>
+                <hairDef>Decent</hairDef>
+                <headTypeDef>ESCP_HeadKhajiit_Male_Average_Normal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>Abrasive</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Bretons">
+        <defName>ESCP_Character_AntoinettaMarie</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Assassin</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Breton</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Antoinetta</firstName>
+                <lastName>Marie</lastName>
+                <gender>Female</gender>
+                <age>25</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(150, 90, 50)</hairColor>
+                <hairDef>Bob</hairDef>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Orsimer">
+        <defName>ESCP_Character_GogronGroBolmog</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Assassin</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Orsimer</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Gogron</firstName>
+                <lastName>gro-Bolmog</lastName>
+                <gender>Male</gender>
+                <age>40</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(40, 35, 30)</hairColor>
+                <hairDef>Mohawk</hairDef>
+                <headTypeDef>ESCP_HeadMerWideFace_Male_Average_Wide</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>Tough</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Bosmer">
+        <defName>ESCP_Character_Telaendril</defName>
+        <pawnKind>ESCP_Pawnkind_DarkBrotherhood_Assassin</pawnKind>
+        <faction>ESCP_Faction_DarkBrotherhood</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Bosmer</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Telaendril</firstName>
+                <lastName></lastName>
+                <gender>Female</gender>
+                <age>60</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(80, 50, 30)</hairColor>
+                <hairDef>Long</hairDef>
+                <headTypeDef>ESCP_HeadMer_Female_Average_Normal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+</Defs>
